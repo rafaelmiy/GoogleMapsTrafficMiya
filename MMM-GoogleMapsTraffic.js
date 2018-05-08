@@ -1,13 +1,13 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: MMM-GoogleMapsTraffic
+ * Module: MMM-GoogleMapsTrafficMiya
  *
  * By Victor Mora
  * MIT Licensed.
  */
 
-Module.register("MMM-GoogleMapsTraffic", {
+Module.register("MMM-GoogleMapsTrafficMiya", {
 	// Module config defaults
 	defaults : {
 		key: '',
@@ -27,7 +27,7 @@ Module.register("MMM-GoogleMapsTraffic", {
                 Log.info("Starting module: " + this.name);
 
                 if (this.config.key === "") {
-                        Log.error("MMM-GoogleMapsTraffic: key not set!");
+                        Log.error("MMM-GoogleMapsTrafficMiya: key not set!");
                         return;
                 }
 
